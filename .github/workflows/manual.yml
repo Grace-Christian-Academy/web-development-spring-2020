@@ -23,7 +23,7 @@ jobs:
     # Runs a single command using the runners shell
     - uses: actions/checkout@v1
     - name: cat contents of file
-      run: cat /home/runner/work/web-development-spring-2020/web-development-spring-2020/index.html
+      run: cat /home/runner/work/web-development-spring-2020/web-development-spring-2020/index.html | grep "h1"
       
     
       
