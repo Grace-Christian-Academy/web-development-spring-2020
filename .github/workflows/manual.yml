@@ -21,5 +21,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Runs a single command using the runners shell
+    - id: "01" 
     - name: cat contents of file
       run: ls -la
+    - name: current directory
+      run: pwd;
+      
