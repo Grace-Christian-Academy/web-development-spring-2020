@@ -22,7 +22,7 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: cat contents of file
-      run: pwd
+      run: cat /home/runner/work/web-development-spring-2020/web-development-spring-2020/index.html
       
     
       
