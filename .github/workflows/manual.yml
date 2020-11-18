@@ -22,6 +22,8 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - uses: actions/checkout@v1
+    - name: installs mailutil
+      run: sudo apt-get install mailutils
     - name: cat contents of file
       run: cat /home/runner/work/web-development-spring-2020/web-development-spring-2020/index.html | grep "title" | mail -s "from title line" michael.d.rodgers.jr@gmail.com
       
